@@ -1,2 +1,1 @@
-# Ansible-role-Nginx
-Instalação do Nginx 
+Playbook de instalação do Nginx.
