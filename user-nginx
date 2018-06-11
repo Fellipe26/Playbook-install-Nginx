@@ -1,10 +1,10 @@
 ---
-#Playbook para criacao do usuario do nginx
+#Playbook para criacao de usuario do nginx
 - name: Criacao do usuario para start do nginx
   hosts: churrops
   vars:
     - username: nginusr
   tasks:
     - name: Criando usuario nos servidores.
-      user: name={{ username }} shell=/bin/bash createhome=yes state=present
+      user: name={{ username }} shell=/bin/bash state=present
       tags: usuario_nginx
