@@ -1,7 +1,7 @@
 ---
 #Playbook para criacao de usuario do nginx
 - name: Criacao do usuario para start do nginx
-  hosts: churrops
+  hosts: <seu inventario>
   vars:
     - username: nginusr
   tasks:
