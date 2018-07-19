@@ -1,7 +1,7 @@
 ---
 #Playbook de instalacao do nginx
 - name: Instalacao do nginx
-  hosts: churrops
+  hosts: <seu inventario>
   remote_user: {{ username }}
   tasks:
     - name: Instalando o nginx e garantindo que o nginx esteja na versão mais recente!
