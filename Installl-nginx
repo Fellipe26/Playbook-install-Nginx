@@ -1,5 +1,8 @@
 ---
-#Playbook de instalacao do nginx
+#################################
+#Playbook de instalacao do nginx#
+#################################
+
 - name: Instalacao do nginx
   hosts: <seu inventario>
   remote_user: {{ username }}
