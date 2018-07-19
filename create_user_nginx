@@ -1,5 +1,8 @@
 ---
-#Playbook para criacao de usuario do nginx
+###########################################
+#Playbook para criacao de usuario do nginx#
+###########################################
+
 - name: Criacao do usuario para start do nginx
   hosts: <seu inventario>
   vars:
