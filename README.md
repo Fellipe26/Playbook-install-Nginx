@@ -1,8 +1,8 @@
 # Playbook de instalação do Nginx.
 
 # Utilização:
-git clone `git@github.com:Fellipe26/Playbook-install-nginx.git`
-cd Playbook-install-nginx
+git clone `git@github.com:Fellipe26/Playbook-install-Nginx.git`
+cd Playbook-install-Nginx
 ansible-playbook -i /nginx/hosts main.yml -vvv
 
 # Teste:
