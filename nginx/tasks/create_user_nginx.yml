@@ -1,0 +1,13 @@
+---
+###########################################
+#Playbook para criacao de usuario do nginx#
+###########################################
+
+- name: Criacao do usuario para start do nginx
+  hosts: <seu inventario>
+  vars:
+    - username: nginusr
+  tasks:
+    - name: Criando usuario nos servidores.
+      user: name={{ username }} shell=/bin/bash state=present
+      tags: usuario_nginx
